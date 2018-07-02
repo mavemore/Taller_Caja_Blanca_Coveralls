@@ -20,4 +20,5 @@ Taller de Cobertura de Código
 
 5. Revise la cobertura del código en Coveralls.
 
+>>>>>>> 7fb3482bf62f5e31a7625d696161e027d2401f40
 [![Coverage Status](https://coveralls.io/repos/github/mavemore/Taller_Caja_Blanca_Coveralls/badge.svg?branch=master)](https://coveralls.io/github/mavemore/Taller_Caja_Blanca_Coveralls?branch=master)
