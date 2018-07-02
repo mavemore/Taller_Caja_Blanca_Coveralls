@@ -14,10 +14,10 @@ Taller de Cobertura de Código
 
 		python test.py
 
-4. Una vez que corra las pruebas exitosamente, suba los cambios en su rama y mire en Travis los resultados. 
+4. Una vez que corra las pruebas exitosamente, suba los cambios en su rama y mire en Travis los resultados (https://travis-ci.org). 
 
 		git push origin [nombre_apellido1_apellido2]
 
-5. Revise la cobertura del código en Coveralls.
+5. Revise la cobertura del código en Coveralls (https://coveralls.io).
 
 [![Coverage Status](https://coveralls.io/repos/github/mavemore/Taller_Caja_Blanca_Coveralls/badge.svg?branch=master)](https://coveralls.io/github/mavemore/Taller_Caja_Blanca_Coveralls?branch=master)
