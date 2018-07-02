@@ -14,6 +14,22 @@ class Test(unittest.TestCase):
 		resultado = clasificacion_clientes(30000,True)
 		self.assertEqual(resultado, "Tipo de cliente: AAA, Envio de boletin: Si" )
 
+	def test_clasificacion_AA(self):
+		resultado = clasificacion_clientes(20000,True)
+		self.assertEqual(resultado, "Tipo de cliente: AA, Envio de boletin: Si" )
+
+	def test_clasificacion_A(self):
+		resultado = clasificacion_clientes(15000,True)
+		self.assertEqual(resultado, "Tipo de cliente: A, Envio de boletin: Si" )
+
+	def test_clasificacion_B(self):
+		resultado = clasificacion_clientes(10000,True)
+		self.assertEqual(resultado, "Tipo de cliente: B, Envio de boletin: Si" )
+
+	def test_clasificacion_C(self):
+		resultado = clasificacion_clientes(5000,True)
+		self.assertEqual(resultado, "Tipo de cliente: C, Envio de boletin: Si" )
+
 
 if __name__ == '__main__':
 	unittest.main()
