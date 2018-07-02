@@ -27,10 +27,6 @@ class Test(unittest.TestCase):
 		self.assertEqual(resultado, "Tipo de cliente: C, Envio de boletin: Si")
 
 	def test_clasificacion_ID_6(self):
-		resultado = clasificacion_clientes.clasificacion_clientes(2000, False)
-		self.assertEqual(resultado, "Tipo de cliente: no es digno de crédito, Envio de boletin: No")
-
-	def test_clasificacion_ID_7(self):
 		resultado = clasificacion_clientes.clasificacion_clientes(0, False)
 		self.assertEqual(resultado, "Tipo de cliente: no es digno de crédito, Envio de boletin: No")
 
