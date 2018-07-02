@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 def clasificacion_clientes(montoDepositado, informacionBuro):
 	enviarBoletinInformativo = "No"
-	clasificacionCliente = "no es digno de crédito"
+	clasificacionCliente = "no es digno de credito"
 	if informacionBuro:  # True: digno de credito, False: no es digno de credito
 		if montoDepositado >= 30000:
 			clasificacionCliente = "AAA"
